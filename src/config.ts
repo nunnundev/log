@@ -180,15 +180,15 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://astro-modular.netlify.app",
+  site: "https://nunnun.dev/",
   // [CONFIG:SITE_TITLE]
-  title: "Astro Modular",
+  title: "nunnun.dev",
   // [CONFIG:SITE_DESCRIPTION]
-  description: "A flexible blog theme designed for Obsidian users.",
+  description: "ぬうん集落です。",
   // [CONFIG:SITE_AUTHOR]
-  author: "David V. Kimball",
+  author: "ぬうん",
   // [CONFIG:SITE_LANGUAGE]
-  language: "en",
+  language: "ja",
   // [CONFIG:FAVICON_THEME_ADAPTIVE]
   faviconThemeAdaptive: true, // If true, favicon switches between favicon-dark.png and favicon-light.png based on browser's system theme preference. If false, always uses favicon.png
   // [CONFIG:DEFAULT_OG_IMAGE_ALT]
