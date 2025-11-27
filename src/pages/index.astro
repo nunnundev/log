@@ -253,84 +253,11 @@ const structuredData = {
             </section>
           )}
 
-          <!-- Featured Projects -->
-          {siteConfig.homeOptions.projects.enabled && featuredProjects.length > 0 && (
-            <section class="mb-12">
-              {!useSpecialTreatment && (
-                <div class="flex items-center justify-between mb-6">
-                  <h2 class="text-lg font-semibold text-primary-900 dark:text-primary-50">
-                    Projects
-                  </h2>
-                  <a
-                    href="/projects"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
-                  >
-                    View all projects →
-                  </a>
-                </div>
-              )}
 
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {featuredProjects.map((project, index) => (
-                  <ProjectCard project={project} eager={false} context="home" showCategories={projectsHaveCategories} />
-                ))}
-              </div>
 
-              {useSpecialTreatment && (
-                <div class="mt-8 text-center">
-                  <a
-                    href="/projects"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
-                  >
-                    View all projects →
-                  </a>
-                </div>
-              )}
-            </section>
-          )}
 
-          <!-- Featured Documentation -->
-          {siteConfig.homeOptions.docs.enabled && featuredDocs.length > 0 && (
-            <section class="mb-12">
-              {!useSpecialTreatment && (
-                <div class="flex items-center justify-between mb-6">
-                  <h2 class="text-lg font-semibold text-primary-900 dark:text-primary-50">
-                    Documentation
-                  </h2>
-                  <a
-                    href="/docs"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
-                  >
-                    View all docs →
-                  </a>
-                </div>
-              )}
 
-              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {featuredDocs.map((doc, index) => (
-                  <DocumentationCard documentation={doc} eager={index === 0} context="home" />
-                ))}
-              </div>
 
-              {useSpecialTreatment && (
-                <div class="mt-8 text-center">
-                  <a
-                    href="/docs"
-                    class="text-primary-600 dark:text-primary-300 hover:text-highlight-600 dark:hover:text-highlight-400 font-medium transition-colors"
-                  >
-                    View all docs →
-                  </a>
-                </div>
-              )}
-            </section>
-          )}
-
-          <!-- Home blurb below posts -->
-          {siteConfig.homeOptions.blurb.placement === 'below' && HomeBlurbContent && (
-            <section class="prose prose-sm dark:prose-dark max-w-none mt-16">
-              <HomeBlurbContent />
-            </section>
-          )}
 
         </>
       ) : (

@@ -15,6 +15,13 @@
       "connections": 6
     },
     {
+      "id": "nuun",
+      "type": "post",
+      "title": "ぬうん",
+      "slug": "nuun",
+      "connections": 1
+    },
+    {
       "id": "obsidian-embeds-demo",
       "type": "post",
       "title": "Obsidian Embeds Demo",
@@ -106,12 +113,17 @@
       "source": "getting-started",
       "target": "formatting-reference",
       "type": "link"
+    },
+    {
+      "source": "nuun",
+      "target": "obsidian-vault-guide",
+      "type": "link"
     }
   ],
   "metadata": {
-    "totalPosts": 5,
-    "totalConnections": 14,
+    "totalPosts": 6,
+    "totalConnections": 15,
     "maxNodesApplied": false,
-    "originalNodeCount": 5
+    "originalNodeCount": 6
   }
 }

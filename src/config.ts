@@ -231,7 +231,7 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:FOOTER_CONTENT]
     content: `© 2025 {author}. Built with the <a href="https://github.com/davidvkimball/astro-modular" target="_blank">Astro Modular</a> theme.`,
     // [CONFIG:FOOTER_SHOW_SOCIAL_ICONS]
-    showSocialIconsInFooter: true,
+    showSocialIconsInFooter: false,
   },
   //[CONFIG:HIDE_SCROLL_BAR]
   hideScrollBar: false,
@@ -247,7 +247,7 @@ export const siteConfig: SiteConfig = {
   // Command Palette
   commandPalette: {
     // [CONFIG:COMMAND_PALETTE_ENABLED]
-    enabled: true,
+    enabled: false,
     // [CONFIG:COMMAND_PALETTE_SHORTCUT]
     shortcut: "ctrl+K",
     // [CONFIG:COMMAND_PALETTE_PLACEHOLDER]
@@ -311,10 +311,10 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:NAVIGATION_PAGES]
     pages: [
       { title: "Posts", url: "/posts" },
-      { title: "Projects", url: "/projects" },
-      { title: "Docs", url: "/docs" },
+//      { title: "Projects", url: "/projects" },
+//      { title: "Docs", url: "/docs" },
       { title: "About", url: "/about" },
-      { title: "GitHub", url: "https://github.com/davidvkimball/astro-modular" },
+//      { title: "GitHub", url: "https://github.com/davidvkimball/astro-modular" },
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [
